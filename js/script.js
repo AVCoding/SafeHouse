@@ -128,15 +128,7 @@ jQuery(document).ready(function($) {
        dots: true,
        dotsClass: 'cons-dots',
        appendDots: $('.cons-dots-wrapper'),
-       autoplay: true,
-       responsive: [
-            {
-              breakpoint: 480,
-              settings: {
-                autoplay: false
-              }
-            },
-          ]
+       autoplay: true
     });
 
 
